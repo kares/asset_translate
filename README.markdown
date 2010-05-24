@@ -36,7 +36,7 @@ Example
 Configuration
 =============
 
-Assets directory (set to Your rails public folder by default).
+Assets directory (points to Your rails public folder by default).
 
     I18n::AssetTranslate.assets_dir = './myAssets'
 
@@ -51,3 +51,4 @@ Assets directory mapping by extension. By default (in a rails env) setup as :
     %w{.gif .jpg .jpeg .png .bmp}.each { |ext| ext_map[ext] = "public/images" }
     
     I18n::AssetTranslate.ext_mappings = ext_map
+    
