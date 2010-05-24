@@ -51,6 +51,3 @@ Assets directory mapping by extension. By default (in a rails env) setup as :
     %w{.gif .jpg .jpeg .png .bmp}.each { |ext| ext_map[ext] = "public/images" }
     
     I18n::AssetTranslate.ext_mappings = ext_map
-
-
-Copyright (c) 2009 Karol Bucek, released under the MIT license
